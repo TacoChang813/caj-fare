@@ -9,7 +9,7 @@ public class RestConfiguration {
 
     @Bean
     public RestTemplate restTemplate() {
-        return new RestTemplate();
+        return new RestTemplate(); 
     }
     
 }
